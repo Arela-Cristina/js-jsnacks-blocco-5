@@ -7,3 +7,12 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+//map calssico
+const author = posts.map((name) => name.author);
+console.log(author);
+
+
+//map con destrutturazione
+const name = posts.map(({ author }) => author);
+console.log(name);
