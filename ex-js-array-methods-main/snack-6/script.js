@@ -19,3 +19,16 @@ console.log(bigZucch)
 
 const smallZucch = zucchine.filter(({ length }) => length < 15);
 console.log(smallZucch)
+
+//megliore soluzzione utilizzare il metodo forEach
+
+// const bigZucchArray= [];
+// const smallZuchhArray = [];
+
+// zucchine.forEach((z) => {
+//   if(z.lenght >= 15){
+//     bigZucchArray.push(z)
+//   } else if (z.lenght < 15){
+//     smallZuchhArray.push(z)
+//   }
+// })

@@ -23,3 +23,15 @@ const students = [
 // Risultato: '3C'
 
 students[0].class
+
+
+//uttilizziamo metodo FIND
+const student = students.find((el) => el.name === 'Marco Lanci').class
+console.log(student)
+
+//const student = students.find((el) => el.name === 'Marco Lanci')?.class || ''
+// ? e || metodo OPTIONAL CHANGUING, concatenazzione opzionale che sarebbe la stessa cosa che il operatorie ternario in basso. 
+
+//fare un controllo per sapere se lo studente essiste oppure e stato incontrato
+//Se lo studente essiste stampare lo studente senno stampare stringa vuota
+const studentClass = student ? student.class : ''
