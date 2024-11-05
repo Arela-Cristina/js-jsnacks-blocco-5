@@ -26,3 +26,6 @@ const students = [
 const found = students.find(({id}) => id === 2);
 
 console.log(found)
+
+//findIndex per cercare il indice
+//findlast per cercare un ele,mento partendo dalla fine 
